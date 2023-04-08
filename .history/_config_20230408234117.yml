@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Syamil Muharror Ahsanul Husna"
+title                    : "meraculin's personal website"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "meraculin"
+name                     : "Syamil Muharror Ahsanul Husna"
 description              : "An undergrad student living in Sendai"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
