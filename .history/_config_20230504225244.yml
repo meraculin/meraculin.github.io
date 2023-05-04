@@ -270,7 +270,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: [Husna]
-  first_name: [Syamil, M.A.]
+  first_name: [Syamil, M A]
 
   style: apa
   locale: en
