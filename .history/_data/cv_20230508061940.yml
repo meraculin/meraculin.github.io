@@ -2,16 +2,16 @@
   type: map
   contents:
     - name: Full Name
-      value: Syamil Muharror Ahsanul Husna
+      value: Albert Einstein
     - name: Languages
       value: English, Japanese, Indonesian
 
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Science
-      institution: Tohoku University, Sendai, Japan
-      year: 2023
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
         - Description 1.
         - Description 2.
@@ -19,6 +19,12 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table

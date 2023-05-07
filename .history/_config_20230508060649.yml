@@ -171,9 +171,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  tutorials:
+  tutorial:
     output: true
-    permalink: /:collection/:path/
+    permalink: /tutorial/:path/
 
 announcements:
   enabled: true
@@ -242,9 +242,7 @@ defaults:
   - scope:
       path: ""
       type: tutorials
-    values:
-      layout: page
-
+    
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -270,7 +268,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['python', 'imagej', 'tutorial', 'physics'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['python', 'imagej', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
