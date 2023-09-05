@@ -303,5 +303,3 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-
-max_width: 1080px

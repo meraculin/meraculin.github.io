@@ -304,4 +304,4 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-max_width: 1080px
+max_width: 1080
