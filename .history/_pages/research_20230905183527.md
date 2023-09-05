@@ -1,0 +1,9 @@
+---
+layout: collection
+title: "Tutorials"
+permalink: /tutorials/
+author profile: true
+collection: tutorials
+sort_by: date
+sort_order: reverse
+---
