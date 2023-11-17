@@ -1,8 +1,0 @@
----
-layout: posts
-title:  "Journal Club: Programmable synthetic biocondensates for cellular control"
-date:  2023-09-11 12:00:00
-toc: true
----
-
-In construction, in the meantime you can see my presentation here: <a href="https://doi.org/10.1038/s41589-022-01252-8">PDF</a>.

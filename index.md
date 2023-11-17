@@ -9,16 +9,13 @@ header:
     - label: "Takahashi Lab (Tohoku University)"
       url: "http://www2.tagen.tohoku.ac.jp/lab/takahashi-s/"
 ---
-## About Sam
-Growing up, I had a bit too much fascination with fire, which naturally led me to discover my passion for chemistry. In undergrad, I completed my thesis on the topic of FUS droplet coalescence mechanism and currently continuing the same project in my masters. My research interest lies in the physics governing the droplet interface, particularly the amino acid residues that dictate these interactions.
-
-I am currently using Python for most of my analysis and also my part time job as an automation engineer.
+Growing up, I had a bit too much fascination with fire, which naturally led me to discover my passion for chemistry. I'm currently researching the liquid-liquid phase separation phenomenon (LLPS) of FUS proteins at Tohoku University. Mostly, I am using Python for my research, but I am also interested in learning more about R and LAMMPS/GROMACS in graduate school.
 
 #### Education
 * **M.Sc., Graduate School of Science, Tohoku University (Oct 2023~)**
     * Major: Chemistry (IGPAS Program)
     * Laboratory: Biomolecular Dynamics (PI: Satoshi Takahashi)
-    * Projects: FUS droplet interface
+    * Projects: To be decided
   
 * **B.Sc., School of Science, Tohoku University (Oct 2019-Sep 2023)**
     * Major: Chemistry (AMC, FGL Program)
@@ -27,13 +24,10 @@ I am currently using Python for most of my analysis and also my part time job as
       * Fluorescence imaging
       * Optical tweezers
 
-#### Honors and Awards
-* Poster presentation award. The 61st Annual Meeting of the Biophysical Society of Japan. Nov 2023.
-* MEXT (U to U) Scholarship. Oct 2019 - Sep 2023.
-
 #### Organizational experiences
-* **The 36th Tohoku University International Festival (<a href="https://www.tufsa.net/tuif2023/dashboard" target="_blank">TUIF</a>), Leader (2023)**\\
-  * Led and coordinated the committee for the biggest international festival in Tohoku region, sold out 1000 tickets.
+* **The 36th Tohoku University International Festival (<a href="https://www.tufsa.net/tuif2023" target="_blank">TUIF</a>), Leader (2023)**\\
+  * Led and coordinated the committee for the biggest international festival in Tohoku region, amassing more than 3000 visitors.
 
 * **Tohoku University Foreign Student Association (<a href="https://www.tufsa.net/" target="_blank">TUFSA</a>), President (2023-2024)**\\
-  * Led the organizational reform of the association which had been inactive for three years due to the pandemic by rebuilding it from the ground up.
+  * Led the organizational reform of the association which had been inactive for three years due to the pandemic, by rebuilding it from the ground up. Responsibilities include leading the members to conceive, plan, and execute events, etc., to expand the circle of exchange between international and Japanese students within the university. 
+  
