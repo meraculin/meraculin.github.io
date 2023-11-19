@@ -28,7 +28,7 @@ I am currently using Python for most of my analysis and also my part time job as
       * Optical tweezers
 
 #### Honors and Awards
-* Poster presentation award. The 61st Annual Meeting of the Biophysical Society of Japan. Nov 2023.
+* Poster presentation award. The 61st Annual Meeting of the Biophysical Society of Japan. Nov 2023. [PDF](assets/pdf/Sam_BSJ_2023_11.pdf).
 * MEXT (U to U) Scholarship. Oct 2019 - Sep 2023.
 
 #### Organizational experiences
