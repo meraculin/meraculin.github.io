@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "Research"
-    url: /research/
-  - title: "About me"
-    url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "About Me"
+    url: /a/
   - title: "Contact"
     url: /contact/
   # - title: "Sample Collections"
