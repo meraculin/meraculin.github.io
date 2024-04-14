@@ -4,8 +4,8 @@ author_profile: true
 header:
   overlay_color: "#666"
   actions:
-    - label: "CV (2024/03)"
-      url: "https://drive.google.com/file/d/1D1acJXSwvebbXsR5RQfeXNVTujgTHO-F/view?usp=sharing"
+    - label: "CV (2024/04)"
+      url: "https://drive.google.com/file/d/1CxtYmEqjfwNsxStb-uYbhxCZ_B9fYUeE/view?usp=sharing"
     - label: "Takahashi Lab (Tohoku University)"
       url: "http://www2.tagen.tohoku.ac.jp/lab/takahashi-s/"
 ---
