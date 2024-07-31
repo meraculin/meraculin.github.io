@@ -1,6 +1,8 @@
 ---
 layout: home
 author_profile: true
+toc: true
+toc_sticky: true
 header:
   overlay_color: "#666"
   actions:
