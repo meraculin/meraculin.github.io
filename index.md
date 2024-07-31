@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: single
 author_profile: true
 toc: true
 toc_sticky: true
+
 header:
   overlay_color: "#666"
   actions:
@@ -11,7 +12,6 @@ header:
     - label: "Takahashi Lab (Tohoku University)"
       url: "http://www2.tagen.tohoku.ac.jp/lab/takahashi-s/"
 ---
-
 Sam is a chemistry master's student with interests in biochemistry and protein soft matter. He was born and raised in Jakarta, Indonesia and moved to Japan to pursue undergraduate and master's studies.
 
 ###### Incoming events
