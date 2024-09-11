@@ -16,14 +16,14 @@ I am currently using Python for most of my analysis and also at my part time job
 ### Education
 * **M.Sc., Graduate School of Science, Tohoku University (Oct 2023~)**
     * Major: Chemistry (IGPAS Program)
-    * Laboratory: Biomolecular Dynamics (PI: [Kiyoto Kamagata](https://tohoku.elsevierpure.com/ja/persons/kiyoto-kamagata))
+    * Laboratory: Biomolecular Dynamics (PI: Kiyoto Kamagata)
     * Projects: 
       * Elucidation of fusion dynamics of FUS droplets
       * *Soon to be added*
   
 * **B.Sc., School of Science, Tohoku University (Oct 2019-Sep 2023)**
     * Major: Chemistry (AMC, FGL Program)
-    * Laboratory: Biomolecular Dynamics (PI: [Kiyoto Kamagata](https://tohoku.elsevierpure.com/ja/persons/kiyoto-kamagata))
+    * Laboratory: Biomolecular Dynamics (PI: Kiyoto Kamagata)
     * Projects: Elucidation of fusion dynamics of FUS droplets
       * Fluorescence imaging
       * Optical tweezers
@@ -47,3 +47,4 @@ Led the organizational reform of the association which had been inactive for thr
 ![image tooltip here](/assets/images/about/tufsa_members.jpg)
 
 ### Side projects
+Coming soon...
