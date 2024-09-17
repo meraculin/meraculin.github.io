@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Syamil Muharror"
 description              : "Sam's personal website."
-url                      : https://syamilmuharror.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "syamilmuharror.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : meraculin/meraculin.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Syamil Muharror"
   avatar           : "/assets/images/author_image.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Master's student in Sendai, Japan"
+  bio              : "Chemistry Master's student"
   location         : "Sendai, Japan"
   email            : syamilmuharror@gmail.com
   links:
