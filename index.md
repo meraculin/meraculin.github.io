@@ -7,8 +7,8 @@ toc_sticky: true
 header:
   overlay_color: "#666"
   actions:
-    - label: "CV (2024/06)"
-      url: "https://drive.google.com/file/d/1CxtYmEqjfwNsxStb-uYbhxCZ_B9fYUeE/view?usp=sharing"
+    - label: "CV (2024/10)"
+      url: "https://drive.google.com/file/d/1PhfdV_ERnxs6cCWrnEvBp7gaYYXlvcH4/view?usp=sharing"
     - label: "Takahashi Lab (Tohoku University)"
       url: "http://www2.tagen.tohoku.ac.jp/lab/takahashi-s/"
 ---
