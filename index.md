@@ -12,15 +12,17 @@ header:
     - label: "Takahashi Lab (Tohoku University)"
       url: "http://www2.tagen.tohoku.ac.jp/lab/takahashi-s/"
 ---
-Sam is a chemistry master's student with interests in biochemistry and protein soft matter.
-He was born and raised in Jakarta, Indonesia and moved to Japan to pursue undergraduate and master's studies.
+Sam is a chemistry master's student with interests in liquid-liquid phase separation and single-molecule imaging.
+He was born and raised in Jakarta, Indonesia and moved to Japan to pursue undergraduate and masters studies.
 
-###### Recent News
----
-- **2024/12**: Sam has been accepted to the University of Michigan (PhD in Chemistry) for his doctoral study!
-- **2024/08**: Sam attended and presented at [the 64th Summer School for Young Biophysicists (第64回 生物物理若手の会 夏の学校)](https://bpwakate.net/summer2024/) in Sapporo, Japan.
-- **2024/06**: Sam received the Student and Early Career Researcher Poster Award at the 21st IUPAB and 62nd Annual Meeting of the Biophysical Society of Japan. [See more.](https://www2.tagen.tohoku.ac.jp/lab/news_award/20240717/)
-- **2023/11**: Sam received the Student Presentation Award at the 61st Annual Meeting of the Biophysical Society of Japan. [See more.](https://www.biophys.jp/ann/ann01_13.html)
-- **2023/10**: Sam started his master's program (IGPAS) at Tohoku University.
-- **2023/09**: Sam has graduated with a Bachelor of Science in Chemistry from Tohoku University.
+## Recent News
 
+<div style="overflow-y: scroll; height: 350px; border: 0px; padding: 5px;">
+    <ul style="list-style-type: disc; padding-left: 20px;">
+        <li style="margin-top: 5px; margin-bottom: 5px;"><strong>Aug, 2024.</strong> 🎤 I attended and presented at <a href="https://bpwakate.net/summer2024/">the 64th Summer School for Young Biophysicists</a> (第64回 生物物理若手の会 夏の学校) in Sapporo, Japan.</li>
+        <li style="margin-top: 5px; margin-bottom: 5px;"><strong>Aug, 2024.</strong> 🎤 I received the Student and Early Career Researcher Poster Award at the 21st IUPAB and 62nd Annual Meeting of the Biophysical Society of Japan (<a href="https://www2.tagen.tohoku.ac.jp/lab/news_award/20240717/">See more.</a>)</li>
+        <li style="margin-top: 5px; margin-bottom: 5px;"><strong>Nov, 2023.</strong> 🎤 I received the Student Presentation Award at the 61st Annual Meeting of the Biophysical Society of Japan (<a href="https://www.biophys.jp/ann/ann01_13.html">See more.</a>)</li>
+        <li style="margin-top: 5px; margin-bottom: 5px;"><strong>Oct, 2023.</strong> 📚 I started my master studies under the IGPAS program at Tohoku University.</li>
+        <li style="margin-top: 5px; margin-bottom: 5px;"><strong>Sep, 2023.</strong> 🎓 I have graduated with a Bachelor of Science in Chemistry from Tohoku University.</li>
+    </ul>
+</div>
