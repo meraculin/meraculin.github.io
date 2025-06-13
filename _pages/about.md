@@ -7,26 +7,12 @@ toc_sticky: true
 title: "About Sam"
 author_profile: true
 ---
-Growing up, I had a bit too much fascination with fire, which naturally led me to discover my passion for chemistry. 
-
-In undergrad, I completed my thesis on the topic of FUS droplet coalescence mechanism and currently continuing the same project in my masters. My research interest lies in the physics governing the droplet interface, particularly the amino acid residues that dictate these interactions.
-
-I am currently using Python for most of my analysis and also at my part time job as an automation engineer.
 ## Research 
 ### Education
-* **M.Sc., Graduate School of Science, Tohoku University (Oct 2023~)**
+* **M.Sc., Graduate School of Science, Tohoku University**
     * Major: Chemistry (IGPAS Program)
-    * Laboratory: Biomolecular Dynamics (PI: Kiyoto Kamagata)
-    * Projects: 
-      * Elucidation of fusion dynamics of FUS droplets
-      * *Soon to be added*
-  
-* **B.Sc., School of Science, Tohoku University (Oct 2019-Sep 2023)**
+* **B.Sc., School of Science, Tohoku University**
     * Major: Chemistry (AMC, FGL Program)
-    * Laboratory: Biomolecular Dynamics (PI: Kiyoto Kamagata)
-    * Projects: Elucidation of fusion dynamics of FUS droplets
-      * Fluorescence imaging
-      * Optical tweezers
 
 ### Honors and Awards
 * Early Career Researcher Poster Award. The 21st IUPAB and 62nd Annual Meeting of the Biophysical Society of Japan. Kyoto, Jun 2024. [See more.](https://www2.tagen.tohoku.ac.jp/lab/news_award/20240717/)
