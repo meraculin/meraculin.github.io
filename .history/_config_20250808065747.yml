@@ -108,7 +108,7 @@ author:
   name             : "Sam Husna"
   avatar           : "/assets/images/author_image.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Chemistry PhD student"
-  location         : "Ann Arbor, Michigan, USA"
+  location         : "Ann Arbor, Michigan"
   email            : samhusna@umich.edu
   links:
     - label: "Website"

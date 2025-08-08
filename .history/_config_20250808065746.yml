@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-JP"
-title                    : "Syamil Muharror"
+title                    : "Sam Husna"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Syamil Muharror"
+name                     : "Sam Husna"
 description              : "Sam's personal website."
 url                      : "syamilmuharror.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -105,15 +105,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Syamil Muharror"
+  name             : "Sam Husna"
   avatar           : "/assets/images/author_image.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Chemisty Master's student in Sendai, Japan"
-  location         : "Sendai, Japan"
-  email            : syamilmuharror@gmail.com
+  bio              : "Chemistry PhD student"
+  location         : "Ann Arbor, Japan"
+  email            : samhusna@umich.edu
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:syamilmuharror@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

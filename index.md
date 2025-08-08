@@ -9,10 +9,9 @@ header:
   actions:
     - label: "CV (2024/12)"
       url: "https://drive.google.com/file/d/19vCDt6wND-X-fvo6gZtU1oejxsWfaD5x/view?usp=sharing"
-    - label: "Takahashi Lab (Tohoku University)"
-      url: "http://www2.tagen.tohoku.ac.jp/lab/takahashi-s/"
 ---
-Sam is a chemistry master's student with interests in liquid-liquid phase separation and single-molecule imaging.
+
+Sam is a chemistry PhD student with interests in liquid-liquid phase separation and single-molecule imaging.
 He was born and raised in Jakarta, Indonesia and moved to Japan to pursue undergraduate and masters studies.
 
 ## Recent News
