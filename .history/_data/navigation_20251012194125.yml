@@ -2,9 +2,9 @@
 main:
   - title: "research"
     url: /research/
-  - title: "blog"
+  - title: "Blog"
     url: /blog/
-  - title: "about"
+  - title: "About"
     url: /about/
-  - title: "contact"
+  - title: "Contact"
     url: /contact/

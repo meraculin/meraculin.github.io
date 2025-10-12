@@ -4,7 +4,7 @@ main:
     url: /research/
   - title: "blog"
     url: /blog/
-  - title: "about"
+  - title: "About"
     url: /about/
-  - title: "contact"
+  - title: "Contact"
     url: /contact/
