@@ -1,9 +1,7 @@
 # main links
 main:
   - title: "Research"
-    url: /research/
-  - title: "Blog"
-    url: /blog/
+    url: https://mmistakes.github.io/minimal-mistakes/research/
   - title: "About"
     url: /about/
   - title: "Contact"

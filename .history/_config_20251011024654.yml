@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Sam Husna"
-  avatar           : "/assets/images/author_image.jpg" # path of author image, e.g. "/assets/images/avatar.jpg"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Chemistry PhD student"
   location         : "Ann Arbor, MI"
   email            : samhusna@umich.edu
@@ -127,7 +127,7 @@ author:
       url: "https://samhusna.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/samm_husna"
+      url: "https://twitter.com/samhusna"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -143,13 +143,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/samm_husna"
+      # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/meraculin"
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -159,7 +159,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-  since: "2023"
+  since: "2013"
 
 
 # Reading Files
@@ -265,7 +265,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-toc
 
 # mimic GitHub Pages with --safe
 whitelist:

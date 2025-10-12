@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Sam Husna"
-  avatar           : "/assets/images/author_image.jpg" # path of author image, e.g. "/assets/images/avatar.jpg"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Chemistry PhD student"
   location         : "Ann Arbor, MI"
   email            : samhusna@umich.edu
@@ -265,6 +265,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
   - jekyll-toc
 
 # mimic GitHub Pages with --safe

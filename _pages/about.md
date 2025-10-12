@@ -1,0 +1,31 @@
+---
+layout: single
+author_profile: true
+permalink: /about/
+toc: true
+toc_sticky: true
+title: "About Sam"
+author_profile: true
+---
+### Education
+* University of Michigan (PhD in Chemistry) 2025 - 2030 (expected)
+* Tohoku University (BS and MS in Chemistry) 2019 - 2025
+
+### Honors and Awards
+* Early Career Researcher Poster Award. The 21st IUPAB and 62nd Annual Meeting of the Biophysical Society of Japan. Kyoto, Jun 2024. [See more.](https://www2.tagen.tohoku.ac.jp/lab/news_award/20240717/)
+* Student Presentation Award. The 61st Annual Meeting of the Biophysical Society of Japan. Nagoya, Nov 2023. [See more.](https://www.biophys.jp/ann/ann01_13.html)
+* Kamei Foundation Fellowship, Apr 2025 - Sep 2025.
+* MEXT SGU Scholarship, Oct 2023 - Apr 2025.
+* MEXT (U to U) Scholarship, Oct 2019 - Sep 2023.
+
+### Organizational experiences
+* President of the 36th Tohoku University International Festival [TUIF Website](https://www.tufsa.net/tuif2023/dashboard), [See in press.](https://www.tohoku.ac.jp/en/news/university_news/36th_tohoku_university_international_festival.html)
+
+    ![image tooltip here](/assets/images/about/tuif_members.jpg)
+
+* President of the Tohoku University Foreign Student Association [TUFSA](https://www.tufsa.net/) (2023-2024)
+
+    ![image tooltip here](/assets/images/about/tufsa_members.jpg)
+
+### Side projects
+Coming soon...
