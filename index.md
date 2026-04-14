@@ -7,7 +7,7 @@ toc_sticky: true
 
 ---
 
-Sam is a Chemistry PhD student with interests in  biomolecular condensates and single-molecule imaging/tracking.
+Sam is a Biophysics PhD student with interests in  biomolecular condensates and single-molecule imaging/tracking.
 He was born and raised in Jakarta, Indonesia. He then moved to Japan to pursue undergraduate and master's studies (Tohoku University) and then the United States for PhD (University of Michigan).
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 1.5rem; margin-bottom: 2rem;">

@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Sam Husna"
   avatar           : "/assets/images/author_image.jpg" # path of author image, e.g. "/assets/images/avatar.jpg"
-  bio              : "Chemistry PhD student"
+  bio              : "Biophysics PhD student"
   location         : "Ann Arbor, MI"
   email            : samhusna@umich.edu
   links:
@@ -266,6 +266,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-toc
+  - jekyll-scholar
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -274,6 +275,14 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  sort_by: year
+  order: descending
+  bibliography_template: bib
 
 
 # Archives

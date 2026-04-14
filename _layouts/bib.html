@@ -1,0 +1,15 @@
+---
+---
+{% capture formatted_ref %}
+  {{ reference | replace: 'Husna, S. M. A.', '<strong>Husna, S. M. A.</strong>' | replace: 'Husna, S.M.A.', '<strong>Husna, S. M. A.</strong>' | replace: 'Husna, S.', '<strong>Husna, S.</strong>' }}
+{% endcapture %}
+
+{% if entry.doi %}
+  {% assign raw_doi = "https://doi.org/" | append: entry.doi %}
+  {% assign formatted_ref = formatted_ref | replace: raw_doi, "" %}
+{% endif %}
+
+{{ formatted_ref }}
+{% if entry.doi %}
+ <a href="https://doi.org/{{ entry.doi }}">[doi]</a>
+{% endif %}

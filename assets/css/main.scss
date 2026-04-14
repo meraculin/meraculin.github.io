@@ -59,7 +59,8 @@ body {
 }
 
 /* Robust override to perfectly place the TOC on all desktop screens and prevent overlap */
-@media (min-width: 1024px) {
+/* Robust override to perfectly place the TOC on all desktop screens and prevent overlap */
+@media (min-width: 1280px) {
   .page {
     /* Remove default padding since we manage layout via the inner wrap */
     padding-inline-end: 0 !important;
@@ -72,8 +73,7 @@ body {
     position: absolute !important;
     top: 0 !important;
     bottom: 0 !important; /* Stretch track identically to glass box height */
-    /* backdrop-filter on inner-wrap traps absolute positioning! 
-       Push the TOC out of the glass pane into the margin space we created. */
+    /* Push the TOC out of the glass pane into the margin space we created. */
     right: calc(-200px - 4rem) !important;
     margin-inline-end: 0 !important;
     width: 200px !important;
@@ -81,11 +81,11 @@ body {
   }
   .sidebar__right nav.toc {
     position: sticky !important;
-    top: 2rem !important; /* Enable native stickiness to float through the track height */
+    top: 2rem !important;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   .page__inner-wrap {
     margin-inline-end: calc(220px + 4rem) !important;
   }
