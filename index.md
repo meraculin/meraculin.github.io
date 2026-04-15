@@ -19,6 +19,7 @@ He was born and raised in Jakarta, Indonesia. He then moved to Japan to pursue u
 ## Recent News
 <div style="overflow-y: scroll; height: 400px; border: 0px; padding: 5px;">
     <ul style="list-style-type: disc; margin-left: 0; padding-left: 20px;">
+      <li style="margin-bottom: 8px;"><span class="record-date">Apr 2026</span> - 📝 Published in COSB, <a href="https://doi.org/10.1016/j.sbi.2026.103271">link</a>.</li>
         <li style="margin-bottom: 8px;"><span class="record-date">Mar 2026</span> - 📝 Published in ACS Omega, <a href="https://pubs.acs.org/doi/10.1021/acsomega.6c01513">link</a>.</li>
         <li style="margin-bottom: 8px;"><span class="record-date">Feb 2026</span> - 🎤 I presented my poster at BPS 2026 in SF, <a href="https://www.cell.com/biophysj/abstract/S0006-3495(25)01911-3">abstract</a>.</li>
         <li style="margin-bottom: 8px;"><span class="record-date">Jan 2026</span> - 〽️ I started my Winter Rotation at the <a href="https://brooks.chem.lsa.umich.edu/">Brooks Lab</a></li>

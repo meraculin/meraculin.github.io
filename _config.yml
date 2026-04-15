@@ -280,7 +280,7 @@ whitelist:
 scholar:
   style: apa
   locale: en
-  sort_by: year
+  sort_by: year, month
   order: descending
   bibliography_template: bib
 

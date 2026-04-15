@@ -13,8 +13,6 @@ title: "Publications"
 
 ### Preprint / Submitted
 * Kamagata, K.\*, Hando, A.\*, **Husna, S. M. A.**\*, Kawahara, H., Nozawa, R-S., Ikeda, K., & Mano, E. *Complex and heterogeneous fusion dynamics of protein condensates by high-speed imaging and optical trapping.* Submitted to ACS Journal of Physical Chem B (in review).
-* Sumrall, E., **Husna, S. M. A.**, Halder, B., Ahnoud, A. & Walter, N. G. *Single-molecule microscopy of biomolecular
-condensates: From liquid droplets to heterogeneous networks.* Submitted to COSB (**Perspective**)
 
 ### In Prep
 * Gao, G.\*, Sumrall, E. R.\*, **Husna, S.**, Li, X. & Walter, N. G. *Incidental hyperosmotic phase separation enables transient RNA-protein triage.*
