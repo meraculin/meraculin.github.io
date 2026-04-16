@@ -1,22 +1,7 @@
 <!-- Dynamic Condensate Background -->
 <div class="dynamic-bg-container">
   <div class="blob-wrapper" id="parallaxWrapper">
-    <!-- Ambient Small Condensates -->
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
-    <div class="blob blob-4"></div>
-    <div class="blob blob-5"></div>
-    <div class="blob blob-6"></div>
-    <div class="blob blob-7"></div>
-    <div class="blob blob-8"></div>
-    <div class="blob blob-9"></div>
-    <div class="blob blob-10"></div>
-    <div class="blob blob-11"></div>
-    <div class="blob blob-12"></div>
-    <div class="blob blob-13"></div>
-    <div class="blob blob-14"></div>
-    <div class="blob blob-15"></div>
+    <!-- Automatically populated by the Javascript Droplet Physics Engine -->
   </div>
 </div>
 
@@ -24,23 +9,145 @@
 <svg style="display:none;" xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <filter id="goo" x="-50%" y="-50%" width="200%" height="200%">
-      <!-- High blur radius to soften edges before merging -->
-      <feGaussianBlur in="SourceGraphic" stdDeviation="25" result="blur" />
-      <!-- Color matrix tightens the alpha channel to create a hard edge out of the blur, achieving the 'water droplet / gooey' liquid merge -->
+      <!-- Moderate blur to mix the internal colors smoothly during surface tension contact -->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+      <!-- Viscosity matrix strictly clamps alpha channel to construct cohesive droplet shapes from the blur -->
       <feColorMatrix in="blur" mode="matrix" values="
           1 0 0 0 0  
           0 1 0 0 0  
           0 0 1 0 0  
-          0 0 0 25 -10" result="goo" />
-      <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+          0 0 0 22 -9" result="goo" />
     </filter>
   </defs>
 </svg>
 
-<!-- Parallax Microscope Tracker -->
+<!-- Interactive Physics Tracker & Parallax -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    /* ------------------------------------------------------------- 
+       1. Biomolecular Droplet Coalescence Simulation
+       ------------------------------------------------------------- */
     const wrapper = document.getElementById('parallaxWrapper');
+    let droplets = [];
+    const NUM_DROPLETS = 15;
+    
+    // Seed Random Configurations
+    const rand = (min, max) => Math.random() * (max - min) + min;
+
+    for (let i = 0; i < NUM_DROPLETS; i++) {
+        let r = rand(30, 90); 
+        let x = rand(r, window.innerWidth - r);
+        let y = rand(r, window.innerHeight - r);
+        
+        // Sluggish velocity (representing random drift, not momentum throwing)
+        let vx = rand(-0.4, 0.4);
+        let vy = rand(-0.4, 0.4);
+        
+        // Create actual DOM entity
+        let el = document.createElement('div');
+        el.className = 'blob';
+        el.style.top = '0';
+        el.style.left = '0';
+        wrapper.appendChild(el);
+
+        droplets.push({ el, x, y, vx, vy, r });
+    }
+
+    let lastTime = performance.now();
+
+    function stepPhysics(timestamp) {
+        let dt = Math.min((timestamp - lastTime) / 16.66, 3);
+        lastTime = timestamp;
+
+        let w = window.innerWidth;
+        let h = window.innerHeight;
+
+        // 1. Move and Bounce
+        for (let i = 0; i < droplets.length; i++) {
+            let d = droplets[i];
+            d.x += d.vx * dt;
+            d.y += d.vy * dt;
+
+            if (d.x - d.r < 0) { d.x = d.r; d.vx *= -1; }
+            if (d.x + d.r > w) { d.x = w - d.r; d.vx *= -1; }
+            if (d.y - d.r < 0) { d.y = d.r; d.vy *= -1; }
+            if (d.y + d.r > h) { d.y = h - d.r; d.vy *= -1; }
+        }
+
+        // 2. Inelastic Coalescence (Fusion) Check
+        for (let i = 0; i < droplets.length; i++) {
+            for (let j = i + 1; j < droplets.length; j++) {
+                let d1 = droplets[i];
+                let d2 = droplets[j];
+
+                let dx = d2.x - d1.x;
+                let dy = d2.y - d1.y;
+                let dist = Math.sqrt(dx*dx + dy*dy);
+                let touchDist = d1.r + d2.r;
+
+                // Simulated Capillary Action / Surface Tension Pull
+                // Once the SVG gooey filter visually bridges them, physical surface tension initiates
+                if (dist < touchDist * 1.15 && dist > 1) {
+                    let overlap = (touchDist * 1.15) - dist;
+                    // Exponential snap pull the closer their cores get!
+                    let pull = Math.min(overlap * 0.02, 3.0) * dt; 
+                    
+                    // We pull them geometrically together without blowing up their base drift momentum (vx/vy)
+                    d1.x += (dx / dist) * (pull * (d2.r / touchDist)); // Heavier droplets pull smaller ones harder
+                    d1.y += (dy / dist) * (pull * (d2.r / touchDist));
+                    d2.x -= (dx / dist) * (pull * (d1.r / touchDist));
+                    d2.y -= (dy / dist) * (pull * (d1.r / touchDist));
+                }
+
+                // Actual Absorption (Fusing the data structures)
+                // Only merge data dynamically once the smaller droplet is significantly swallowed
+                // This prevents the "teleportation" blip, as the jump distance is now strictly submerged natively within the new radius!
+                if (dist < Math.min(d1.r, d2.r) * 0.8) {
+                    
+                    // Biophysics correction: Droplets are 3D spheres. 
+                    // When observing a 2D microscopy projection, conserving 2D Area yields excessive geometric growth. 
+                    // We must conserve 3D Volume (V ~ r^3) to calculate the new valid 2D projected radius!
+                    let v1 = Math.pow(d1.r, 3);
+                    let v2 = Math.pow(d2.r, 3);
+                    
+                    // Conservation of Momentum: Vf = (M1V1 + M2V2)/(M1+M2)
+                    let vfx = (v1 * d1.vx + v2 * d2.vx) / (v1 + v2);
+                    let vfy = (v1 * d1.vy + v2 * d2.vy) / (v1 + v2);
+
+                    // Conservation of 3D Volume (r_new = cube_root(r1^3 + r2^3))
+                    let r_new = Math.cbrt(v1 + v2);
+
+                    // Overwrite d1 body softly tracking center of mass
+                    d1.x = (d1.x * v1 + d2.x * v2) / (v1 + v2); 
+                    d1.y = (d1.y * v1 + d2.y * v2) / (v1 + v2);
+                    d1.vx = vfx;
+                    d1.vy = vfy;
+                    d1.r = r_new;
+
+                    // Eradicate d2
+                    d2.el.remove();
+                    droplets.splice(j, 1);
+                    j--;
+                }
+            }
+        }
+
+        // 3. Dispatch new frame bounds purely via GPU transform (smooth 60fps)
+        for (let i = 0; i < droplets.length; i++) {
+            let d = droplets[i];
+            d.el.style.width = (d.r * 2) + 'px';
+            d.el.style.height = (d.r * 2) + 'px';
+            d.el.style.transform = `translate3d(${d.x - d.r}px, ${d.y - d.r}px, 0)`;
+        }
+
+        requestAnimationFrame(stepPhysics);
+    }
+
+    requestAnimationFrame(stepPhysics);
+
+    /* ------------------------------------------------------------- 
+       2. UI Parallax Tracker (Mouse Viewport Drift)
+       ------------------------------------------------------------- */
     let cx = window.innerWidth / 2;
     let cy = window.innerHeight / 2;
 
@@ -49,18 +156,12 @@
       cy = window.innerHeight / 2;
     });
     
-    // Only bind parallax if the user has a fine pointing device (mouse)
     if (window.matchMedia("(pointer: fine)").matches) {
       window.addEventListener('mousemove', (e) => {
-        // Calculate decimal ratio from screen center (-1 to 1)
         const dx = (e.clientX - cx) / cx;
         const dy = (e.clientY - cy) / cy;
-        
-        // Translate the entire slide opposite to the mouse by Max 40px
         const moveX = dx * -40;
         const moveY = dy * -40;
-        
-        // Apply smooth transition properties via CSS, relying on translate3d for GPU
         wrapper.style.transform = `translate3d(${moveX}px, ${moveY}px, 0)`;
       });
     }
